@@ -67,51 +67,80 @@ export const competitiveProgramming = [
 export const projects = [
   {
     id: 1,
-    title: "EduVerse",
-    subtitle: "AI-Powered E-Learning Platform",
-    period: "Jun 2023 – Dec 2023",
-    description: "Integrated OpenAI API with RAG to automatically generate quizzes and questions from PDF uploads.",
-    technologies: ["Next.js", "Express", "React", "MySQL", "OpenAI"],
+    title: "Smart IELTS",
+    subtitle: "AI-Powered IELTS Preparation Platform",
+    period: "Sep-2025",
+    badge: "Ranked 4th — Inter-University National Hackathon at GUB",
+    description: "AI-powered IELTS preparation platform with intelligent question generation, voice simulation, and automated evaluation.",
+    technologies: ["Next.js", "Node.js", "Express", "MongoDB", "GeminiAI", "ElevenLabs"],
     features: [
-      "AI-powered quiz generation from PDFs",
-      "Video and PDF content management",
-      "Drag-and-drop functionality",
-      "Note-taking system with CRUD",
-      "Automated assessment generation"
+      "Implemented AI-generated IELTS-style questions tailored to user-selected patterns",
+      "Integrated ElevenLabs AI voice for interactive listening and speaking test simulations",
+      "Added AI-based auto marking system for evaluating responses, band scores, and providing personalized feedback"
     ],
-    color: "purple",
-    githubUrl: "https://github.com/md-abdullah-92/Eduverse"
+    githubUrl: "https://github.com/BadhonAhmad/Smart-IELTS",
+    videoUrl: "https://www.youtube.com/watch?v=mgMEFtJPmYY"
   },
   {
     id: 2,
-    title: "ACCOMO",
-    subtitle: "Rental Management Android App",
-    period: "",
-    description: "Built communication system between property owners and renters for efficient rental management.",
-    technologies: ["Kotlin", "MySQL", "Android"],
+    title: "EduVerse",
+    subtitle: "AI-Powered E-Learning Platform",
+    period: "Jun-2025",
+    description: "AI-powered e-learning platform with automated quiz generation and comprehensive course management.",
+    technologies: ["Next.js", "Node.js", "Express", "React", "MySQL", "OpenAI"],
     features: [
-      "Owner-renter communication system",
-      "Payment tracking and monitoring",
-      "Dashboard for payment history",
-      "Streamlined rental management"
+      "Integrated OpenAI API with RAG to automatically generate quizzes and short questions from PDF uploads",
+      "Enabled teachers to upload videos, PDFs, and efficiently manage course content",
+      "Implemented drag-and-drop functionality for student course material organization",
+      "Developed note-taking system with full CRUD support for student annotations"
     ],
-    color: "blue",
-    githubUrl: "https://github.com/BadhonAhmad/ACCOMO-Android-App"
+    githubUrl: "https://github.com/md-abdullah-92/Eduverse"
   },
   {
     id: 3,
-    title: "Child Learning App",
-    subtitle: "Interactive Educational Platform",
-    period: "",
-    description: "Designed colorful interface with interactive modules for learning alphabets, poems, and animals.",
+    title: "SmartPrescription",
+    subtitle: "Modern Clinic Management System",
+    period: "2025",
+    badge: "Selected for the final round interview at CMED Health",
+    description: "Comprehensive clinic management system with prescription generation and secure patient data management.",
+    technologies: ["Next.js", "TypeScript", "Spring Boot", "Java", "SQLite", "JWT"],
+    features: [
+      "Developed a real-life prescription generation system with doctor-style prescription layout, editing, and printing support",
+      "Implemented day-wise/date-wise filtering facilities and simplified patient profile management for doctors, including access to previous medical history",
+      "Designed drugs database management for fast and accurate prescription writing",
+      "Secured backend using Spring Security with JWT-based authentication and role-based access"
+    ],
+    githubUrl: "https://github.com/BadhonAhmad/SmartPrescription",
+    videoUrl: "https://www.youtube.com/watch?v=kcfUuJgYQJo"
+  },
+  {
+    id: 4,
+    title: "ACCOMO Android App",
+    subtitle: "Rented Resident Management Platform",
+    period: "Mar-2024",
+    description: "Android application for streamlined rental property management and communication.",
+    technologies: ["Kotlin", "JetPack Compose", "MySQL"],
+    features: [
+      "Built communication system between property owners and renters for issue reporting",
+      "Implemented payment tracking feature to monitor rent status and due dates",
+      "Created dashboard for owners to view unpaid units and payment history",
+      "Streamlined rental management process reducing manual tracking efforts"
+    ],
+    githubUrl: "https://github.com/BadhonAhmad/ACCOMO-Android-App"
+  },
+  {
+    id: 5,
+    title: "Child Learning Web",
+    subtitle: "Interactive Educational Platform for Children",
+    period: "Dec-2023",
+    description: "Educational platform designed for early childhood learning with interactive modules.",
     technologies: ["JavaFX", "Swing", "OOP"],
     features: [
-      "Interactive learning modules",
-      "General knowledge quiz system",
-      "OOP principles implementation",
-      "Child-friendly educational experience"
+      "Designed colorful interface with interactive modules for learning alphabets, poems, and animals",
+      "Developed general knowledge quiz system with child-friendly questions",
+      "Applied OOP principles for modular and maintainable code structure",
+      "Created engaging educational experience suitable for early childhood learning"
     ],
-    color: "green",
     githubUrl: "https://github.com/BadhonAhmad/Child-Learning-App"
   }
 ];
@@ -119,9 +148,10 @@ export const projects = [
 export const navigationItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
+  { name: "Programming", href: "#competitive-programming" },
   { name: "Achievements", href: "#achievements" },
+  { name: "Projects", href: "#projects" },
+  { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" }
 ];
 

@@ -1,10 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {
-  competitiveProgramming,
-  hackathonAchievements,
-} from "@/data/portfolio";
+import { hackathonAchievements } from "@/data/portfolio";
 import Image from "next/image";
 
 export default function AchievementsSection() {
@@ -181,7 +178,7 @@ export default function AchievementsSection() {
           ))}
         </div>
 
-        {/* Competitive Programming Achievement Card */}
+        {/* Competitive Programming Achievement Card - Commented Out
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 mb-8 border border-gray-700 hover:border-orange-500 transition duration-300">
           <div className="flex items-start gap-6 mb-6">
             <div className="bg-orange-600 p-4 rounded-2xl">
@@ -243,7 +240,7 @@ export default function AchievementsSection() {
               <span className="text-blue-400 font-semibold">AtCoder</span>
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* AI Training Achievement */}
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 mb-8 border border-gray-700 hover:border-green-500 transition duration-300">
