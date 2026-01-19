@@ -58,7 +58,7 @@ export default function AnimatedBackground() {
   const fallingStarsRef = useRef<FallingStar[]>([]);
   const cosmicDustRef = useRef<CosmicDust[]>([]);
   const cursorParticlesRef = useRef<CursorParticle[]>([]);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | undefined>(undefined);
   const lastStarTimeRef = useRef<number>(Date.now());
   const rotationRef = useRef<number>(0);
 
