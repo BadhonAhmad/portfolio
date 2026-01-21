@@ -5,8 +5,8 @@ export default function CompetitiveProgrammingSection() {
     {
       name: "Codeforces",
       handle: "BADHON30",
-      rating: "Pupil (Max: 1260)",
-      solved: "1200+",
+      rating: "Max Pupil",
+      solved: "1100+",
       description: "Active competitive programmer with consistent rating",
       url: "https://codeforces.com/profile/BADHON30",
     },
@@ -98,8 +98,17 @@ export default function CompetitiveProgrammingSection() {
                 <p className="text-gray-500 text-sm mb-3">@{platform.handle}</p>
               )}
 
+              {platform.rating && (
+                <div className="mb-2">
+                  <span className="inline-block bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full border border-blue-500/30">
+                    {platform.rating}
+                  </span>
+                </div>
+              )}
+
               <div className="text-3xl font-bold text-blue-500 mb-2">
-                {platform.solved || platform.rating}
+                {platform.solved ||
+                  (platform.rating && !platform.solved ? platform.rating : "")}
               </div>
               <p className="text-gray-400 text-sm">{platform.description}</p>
             </div>

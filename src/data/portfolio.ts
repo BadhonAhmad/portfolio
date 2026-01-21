@@ -190,12 +190,12 @@ export const hackathonAchievements = [
         {
           name: "Md Ahasanul Haque Sazid",
           role: "Develop Backend & Integrate SmythOS Agents",
-          linkedin: "https://www.linkedin.com/in/sazid-ux/"
+          linkedin: "https://www.linkedin.com/in/sksazid/"
         },
         {
           name: "Abhishek Dash",
           role: "Team Leader",
-          linkedin: "https://www.linkedin.com/in/abhishek-dash/"
+          linkedin: "https://www.linkedin.com/in/abhishek-dash-60762322a/"
         },
         {
           name: "Badhon Ahmad",
